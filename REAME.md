@@ -52,8 +52,7 @@ I developed a custom ISA that supports both register-direct and immediate addres
 * **Zero Flag**: Monitored across both the GPR and SGPR to ensure accurate zero-detection.
 * **Sign Flag**: Tracks the MSB of the result for signed arithmetic.
 * **Overflow Flag**: Implemented logic to detect two's complement arithmetic violations:
-    $$Overflow = ( (\sim A_{msb} \ \& \ \sim B_{msb} \ \& \ Out_{msb} ) \ | \ (A_{msb} \ \& \ B_{msb} \ \& \ \sim Out_{msb}) )$$
-
+    $$Overflow = (\neg A_{msb} \wedge \neg B_{msb} \wedge Out_{msb}) \vee (A_{msb} \wedge B_{msb} \wedge \neg Out_{msb})$$
 
 
 ---
