@@ -65,5 +65,10 @@ I developed a custom ISA that supports both register-direct and immediate addres
 ---
 
 ## 👤 Author
+<<<<<<< HEAD:REAME.md
 **Arjun Chati** *Electrical & Computer Engineering, The University of Texas at Austin*   
 [LinkedIn](https://linkedin.com/in/arjun-chati/) | [GitHub](https://github.com/ArjunChati) [cite: 2]
+=======
+**Arjun Chati** *Electrical & Computer Engineering, The University of Texas at Austin*   
+[LinkedIn](https://linkedin.com/in/arjun-chati/) | [GitHub](https://github.com/ArjunChati) [cite: 2]
+>>>>>>> cc0297337344ee7e34a19ed2dc7e263618a84f62:README.md
